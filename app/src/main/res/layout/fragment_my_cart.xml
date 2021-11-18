@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MyCart">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="1100px"
+            android:id="@+id/order_listView"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Confirm Order"
+            android:layout_centerHorizontal="true"
+            app:cornerRadius = "20dp"
+            android:layout_below="@id/order_listView"
+            android:layout_marginTop="20dp"
+            android:id = "@+id/bt_ConfOrder"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You have no orders yet"
+            android:textSize="30dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/txtNoOrders"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+
+
+</ScrollView>

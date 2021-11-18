@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="10dp"
+    android:id="@+id/cardFoodItemParent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/food_image"
+            android:layout_margin="4dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Example Pizza"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_below="@+id/food_image"
+            android:layout_marginTop="10dp"
+            android:id="@+id/food_name"
+            android:layout_marginLeft="8dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="400 DZD"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/food_image"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="8dp"
+            android:id="@+id/food_price"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/food_price"
+            android:layout_alignParentRight="true"
+            android:text="Available"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/txtAvailability"
+            android:drawablePadding="4dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Example Restaurant name"
+            android:layout_below="@id/food_name"
+            android:textSize="20dp"
+            android:id="@+id/restaurant_name"
+            android:layout_marginLeft="8dp"
+            android:paddingBottom="6dp"
+            />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_to_cart"
+                android:textSize="18sp"
+                android:paddingBottom="10dp"
+                android:layout_below="@id/restaurant_name"
+                android:visibility="gone"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="13dp"
+                android:id="@+id/bt_addToCart"
+                android:textColor="@color/black"
+                app:cornerRadius="20dp"
+                />
+
+
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

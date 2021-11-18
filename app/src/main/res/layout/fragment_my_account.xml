@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyAccountFragment"
+    android:backgroundTint="#f1f3f4"
+    android:id="@+id/mainAccountLayout">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/settings"
+        android:textSize="18sp"
+        android:backgroundTint="#f1f2ff"
+        android:id="@+id/bt_settings"
+        android:drawableRight="@drawable/ic_arrow_down"
+        />
+<include layout="@layout/settings_layout"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/invite_friends"
+                android:textSize="18sp"
+                android:backgroundTint="#f1f2ff"
+                android:id="@+id/bt_InviteFriends"
+
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/my_discounts"
+                android:textSize="18sp"
+                android:backgroundTint="#f1f2ff"
+                android:id="@+id/bt_discounts"
+
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_us"
+                android:textSize="18sp"
+android:drawableRight="@drawable/ic_arrow_down"
+                android:backgroundTint="#f1f2ff"
+                android:id="@+id/bt_ContactUs"
+                />
+            <include layout="@layout/contact_layout"
+                ></include>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/my_credit"
+                android:textSize="18sp"
+                android:backgroundTint="#f1f2ff"
+                android:id="@+id/bt_points"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_out"
+                android:textSize="18sp"
+                android:backgroundTint="#f1f2ff"
+                android:id="@+id/bt_signOut"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

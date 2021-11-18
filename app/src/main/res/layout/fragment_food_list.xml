@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FoodList">
+
+  <HorizontalScrollView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/scroll_buttons"
+    android:layout_alignParentTop="true"
+      android:scrollbars="none"
+      android:layout_marginBottom="8dp"
+      >
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          >
+          <com.google.android.material.button.MaterialButton
+              android:layout_width="wrap_content"
+              android:layout_height="40dp"
+              android:text="Pizzas"
+              android:id="@+id/bt_pizzas"
+              app:cornerRadius = "20dp"
+              android:layout_marginTop="8dp"
+              android:textColor="@color/black"
+              android:backgroundTint="#f1f3f4"
+              />
+          <com.google.android.material.button.MaterialButton
+              android:layout_width="wrap_content"
+              android:layout_height="40dp"
+              android:text="Sandwiches"
+              android:id="@+id/bt_sandwiches"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:layout_marginTop="8dp"
+              app:cornerRadius = "20dp"
+              android:backgroundTint="#f1f3f4"
+              android:textColor="@color/black"
+
+              />
+          <com.google.android.material.button.MaterialButton
+              android:layout_width="wrap_content"
+              android:layout_height="40dp"
+              android:text="Burgers"
+              android:id="@+id/bt_burgers"
+              app:cornerRadius = "20dp"
+              android:backgroundTint="#f1f3f4"
+              android:textColor="@color/black"
+              android:layout_marginTop="8dp"
+              android:layout_marginRight="20dp"
+
+              />
+          <com.google.android.material.button.MaterialButton
+              android:layout_width="wrap_content"
+              android:layout_height="40dp"
+              android:id="@+id/bt_plats"
+              android:text="Plats"
+              app:cornerRadius = "20dp"
+              android:backgroundTint="#f1f3f4"
+              android:textColor="@color/black"
+              android:layout_marginTop="8dp"
+              android:layout_marginRight="20dp"
+              />
+          <com.google.android.material.button.MaterialButton
+              android:layout_width="wrap_content"
+              android:layout_height="40dp"
+              android:id="@+id/bt_drinks"
+              android:text="Drinks"
+              android:layout_marginTop="8dp"
+              app:cornerRadius = "20dp"
+              android:backgroundTint="#f1f3f4"
+              android:textColor="@color/black"
+              />
+      </LinearLayout>
+
+  </HorizontalScrollView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/FoodRecView"
+        android:layout_below="@id/scroll_buttons"
+        />
+
+
+</RelativeLayout>

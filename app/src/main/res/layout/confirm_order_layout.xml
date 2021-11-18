@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:id="@+id/cardConfOrderParent"
+    android:layout_gravity="center"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtOrderDetails"
+            android:text="Order Details"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:layout_marginLeft="10dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order Fee : "
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="15dp"
+
+                android:layout_marginRight="30dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200 DZD"
+                android:textSize="16sp"
+                android:id="@+id/txtOrderFee"
+                android:textColor="@color/black"
+                android:layout_gravity="right"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delivery Fee : "
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="17dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200 DZD"
+                android:textSize="16sp"
+                android:id="@+id/txtDeliveryFee"
+                android:textColor="@color/black"
+                android:layout_marginRight="17dp"
+                android:layout_gravity="right"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Fee : "
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="35dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200 DZD"
+                android:textSize="16sp"
+                android:id="@+id/txtTotalFee"
+                android:layout_gravity="right"
+                android:textColor="@color/black"
+                android:layout_marginRight="17dp"
+                />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confrim Order"
+            android:textColor="@color/black"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:id="@+id/confirmOrderWithFeeBt"
+            android:layout_marginBottom="20dp"
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

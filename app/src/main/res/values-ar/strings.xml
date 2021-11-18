@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_name">الإسم</string>
+    <string name="last_name">اللقب</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="card_number">رقم البطاقة البنكية</string>
+<string name="user_name">اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="gps_disabled">خدمة الموقع لديك غير مشغلة هل تريد تشغيلها</string>
+    <string name="ok">حسنا</string>
+    <string name="sending_order">جاري إرسال الطلب</string>
+    <string name="order_sent">تم إرسال طلبك بنجاح سوف نعلمك عندما يصبح جاهزا</string>
+    <string name="sending_failed">فشل إرسال طلبك</string>
+    <string name="discovery">مطاعم</string>
+    <string name="mycart">السلة</string>
+    <string name="market">تسوق</string>
+    <string name="myaccount">حسابي</string>
+    <string name="wait_location">في انتظار الحصول على الموقع</string>
+    <string name="english">الإنجليزية</string>
+    <string name="french">الفرنسية</string>
+    <string name="arabic">العربية</string>
+    <string name="add_to_cart">إضافة إلى السلة</string>
+    <string name="settings">الضبط</string>
+    <string name="invite_friends">دعوة صديق</string>
+    <string name="contact_us">إتصل بنا</string>
+    <string name="sign_out">تسجيل الخروج</string>
+    <string name="change_language">تغيير اللغة</string>
+    <string name="dark_mode">الوضع الليلي</string>
+    <string name="items_not_synced">قد لا تكون الأطعمة التي تراها هي نفسها الأطعمة في الوقت الحالي نظرا لمشاكل في الشبكة</string>
+    <string name="my_credit">رصيدي</string>
+    <string name="my_discounts">تخفيضاتي</string>
+</resources>

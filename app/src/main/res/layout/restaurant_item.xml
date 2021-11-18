@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="5dp"
+    android:id="@+id/cardRestParent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Closed"
+            android:textSize="23sp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/restaurant_image"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            android:id="@+id/txtRestClosed"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opened"
+            android:textSize="23sp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/restaurant_image"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txtrRestOpened"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/restaurant_image"
+            android:src="@mipmap/ic_launcher_round"
+            android:layout_margin="4dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Example Restaurant Name"
+            android:id="@+id/txtRestaurantName"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@id/restaurant_image"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtRestaurantWilaya"
+            android:text="Example wilaya"
+            android:layout_below="@id/txtRestaurantName"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_rest_location"
+            android:paddingBottom="9dp"
+            />
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

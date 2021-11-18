@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_name">Nom</string>
+    <string name="last_name">Prénom</string>
+    <string name="card_number">Numéro de Carte bancaire</string>
+    <string name="phone_number">Numéro de téléphone</string>
+    <string name="user_name">Nom d\'utilisateur</string>
+    <string name="password">Mot de pass</string>
+    <string name="confirm_password">Confirmer Mot de pass</string>
+    <string name="gps_disabled">Votre gps est n\'est pas encore activé activer le ?</string>
+    <string name="ok">OK</string>
+    <string name="sending_order">Votre ordre est en cours d\'etre dispatché</string>
+    <string name="order_sent">Votre ordre a été dispatché ,nous allons vous notifier quand il est pret</string>
+    <string name="sending_failed">Dispatchement echoué</string>
+    <string name="discovery">Decouvrir</string>
+    <string name="mycart">Mon Cart</string>
+    <string name="market">Marché</string>
+    <string name="myaccount">Mon compte</string>
+    <string name="wait_location">En attente de GPS</string>
+    <string name="english">Anglais</string>
+    <string name="french">Français</string>
+    <string name="arabic">Arabe</string>
+    <string name="add_to_cart">Ajouter au Cart</string>
+    <string name="settings">Paramètres</string>
+    <string name="invite_friends">Inviter Des amis</string>
+    <string name="contact_us">Contactez nous</string>
+    <string name="sign_out">Déconnecter </string>
+    <string name="change_language">Changer la  langue</string>
+    <string name="dark_mode">Mode Nuit</string>
+    <string name="items_not_synced">les marchandies sont peut-etre non synchronisé au marchandise réeles </string>
+    <string name="my_credit">Mon Credit</string>
+    <string name="my_discounts">Mes Discounts</string>
+</resources>
